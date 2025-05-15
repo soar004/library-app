@@ -12,30 +12,30 @@ export default function Home() {
       {/* Hero Background */}
 
       {/* Hero */}
-      <section className="flex flex-col md:flex-row items-center justify-between gap-10 p-12 md:p-20">
-        <div className="max-w-xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Digital Library
-          </h1>
-          <p className="text-lg text-gray-600 mb-6">
-            Your personal book catalog — discover, track, and explore everything
-            you read.
-          </p>
-          <Link
-            href="/books"
-            className="inline-block bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium px-6 py-3 rounded-lg transition"
-          >
-            Browse Books
-          </Link>
-        </div>
+      <section className="max-w-4xl mx-auto text-center">
+        <h1 className="text-4xl font-bold mb-4">Solveigs digitale bibliotek</h1>
+        <p className="text-lg mb-6">
+          Velkommen til biblioteket mitt! Her finner du bøker jeg har samlet på
+          lydbok og e-bok siden 2013. Biblioteket vil etter hvert også inkludere
+          fysiske bøker, med informasjon om hvor de befinner seg – enten i min
+          egen bokhylle eller hjemme hos mamma og pappa.
+        </p>
+        <p className="text-lg mb-8">
+          Alle bøkene er enten digitale eller tilgjengelige for utlån med et
+          klikk. Utforsk samlingen min under!
+        </p>
+        <Link href="/katalog" className="text-indigo-600 underline font-medium">
+          Se bøker
+        </Link>
+      </section>
 
+      <section className="flex justify-center mt-12">
         <Image
           src="/woman-reading-window.png"
-          alt="Bookshelf illustration"
-          className="h-auto"
-          width={600}
+          alt="Person som leser bok ved vinduet"
+          width={400}
           height={400}
-          priority
+          className="max-w-xs md:max-w-md rounded shadow-lg"
         />
       </section>
     </main>
