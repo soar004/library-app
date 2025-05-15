@@ -2,6 +2,7 @@ export interface Book {
   id: string;
   title: string;
   authors: string[];
+  format: string[];
   description?: string;
   tags?: string[];
   coverUrl?: string;
