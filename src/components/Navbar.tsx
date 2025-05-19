@@ -7,7 +7,10 @@ export default function Navbar() {
         <Link href="/" className="hover:text-purple-600 transition-colors">
           Home
         </Link>
-        <Link href="/books" className="hover:text-purple-600 transition-colors">
+        <Link
+          href="/catalog"
+          className="hover:text-purple-600 transition-colors"
+        >
           Catalog
         </Link>
         <Link href="#" className="hover:text-purple-600 transition-colors">

@@ -24,7 +24,7 @@ export default function Home() {
           Alle bøkene er enten digitale eller tilgjengelige for utlån med et
           klikk. Utforsk samlingen min under!
         </p>
-        <Link href="/katalog" className="text-indigo-600 underline font-medium">
+        <Link href="/catalog" className="text-indigo-600 underline font-medium">
           Se bøker
         </Link>
       </section>
